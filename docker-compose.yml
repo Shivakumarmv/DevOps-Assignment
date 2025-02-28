@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  scraper:
+    build:
+      context: .
+      args:
+        - SCRAPE_URL=${SCRAPE_URL}
+    image: scraper-img
+    container_name: scraper-container
+    ports:
+      - "5000:5000"
+    environment:
+      - SCRAPE_URL=${SCRAPE_URL}
+    restart: always
