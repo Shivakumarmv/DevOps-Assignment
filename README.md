@@ -25,4 +25,10 @@ docker-compose build
 docker-compose up -d
 
 ```
+#ACCESS HOSTED DATA
 
+```
+#copy publicip of server:port
+44.203.252.218:5000
+
+```
