@@ -6,7 +6,7 @@ newgrp docker
 ```
 # GIT CLONE
 ```
-git clone 
+git clone https://github.com/Shivakumarmv/DevOps-Assignment.git
 cd Devops-Assignment
 
 ```
